@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/kiell/AndroidStudioProjects/KN_BEAUTYAPP_2022_OPSC_TASK2/app/src/main/res/drawable/ic_home.xml" value="0.136" />
+        <entry key="..\:/Users/kiell/AndroidStudioProjects/KN_BEAUTYAPP_2022_OPSC_TASK2/app/src/main/res/layout/activity_collection_items.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/kiell/AndroidStudioProjects/KN_BEAUTYAPP_2022_OPSC_TASK2/app/src/main/res/layout/activity_create_collection.xml" value="0.264" />
+        <entry key="..\:/Users/kiell/AndroidStudioProjects/KN_BEAUTYAPP_2022_OPSC_TASK2/app/src/main/res/layout/activity_create_item.xml" value="0.25" />
+        <entry key="..\:/Users/kiell/AndroidStudioProjects/KN_BEAUTYAPP_2022_OPSC_TASK2/app/src/main/res/layout/activity_feedback.xml" value="0.18478260869565216" />
+        <entry key="..\:/Users/kiell/AndroidStudioProjects/KN_BEAUTYAPP_2022_OPSC_TASK2/app/src/main/res/layout/activity_graph.xml" value="0.152" />
+        <entry key="..\:/Users/kiell/AndroidStudioProjects/KN_BEAUTYAPP_2022_OPSC_TASK2/app/src/main/res/layout/activity_home.xml" value="0.46647230320699706" />
+        <entry key="..\:/Users/kiell/AndroidStudioProjects/KN_BEAUTYAPP_2022_OPSC_TASK2/app/src/main/res/layout/activity_item_details.xml" value="0.264" />
+        <entry key="..\:/Users/kiell/AndroidStudioProjects/KN_BEAUTYAPP_2022_OPSC_TASK2/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/Users/kiell/AndroidStudioProjects/KN_BEAUTYAPP_2022_OPSC_TASK2/app/src/main/res/layout/activity_main.xml" value="0.18478260869565216" />
+        <entry key="..\:/Users/kiell/AndroidStudioProjects/KN_BEAUTYAPP_2022_OPSC_TASK2/app/src/main/res/layout/activity_privacy_policy.xml" value="0.18478260869565216" />
+        <entry key="..\:/Users/kiell/AndroidStudioProjects/KN_BEAUTYAPP_2022_OPSC_TASK2/app/src/main/res/layout/individual_collection.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/kiell/AndroidStudioProjects/KN_BEAUTYAPP_2022_OPSC_TASK2/app/src/main/res/layout/individual_item.xml" value="0.4" />
+        <entry key="..\:/Users/kiell/AndroidStudioProjects/KN_BEAUTYAPP_2022_OPSC_TASK2/app/src/main/res/layout/navigation_header.xml" value="0.18478260869565216" />
+        <entry key="..\:/Users/kiell/AndroidStudioProjects/KN_BEAUTYAPP_2022_OPSC_TASK2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.136" />
+        <entry key="..\:/Users/kiell/AndroidStudioProjects/KN_BEAUTYAPP_2022_OPSC_TASK2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.136" />
+        <entry key="..\:/Users/lab_services_student/AndroidStudioProjects/KN_BEAUTYAPP_2022_OPSC_TASK2/app/src/main/res/drawable/ic_baseline_add_photo_alternate_24.xml" value="0.2565" />
+        <entry key="..\:/Users/lab_services_student/AndroidStudioProjects/KN_BEAUTYAPP_2022_OPSC_TASK2/app/src/main/res/drawable/ic_logout.xml" value="0.124" />
+        <entry key="..\:/Users/lab_services_student/AndroidStudioProjects/KN_BEAUTYAPP_2022_OPSC_TASK2/app/src/main/res/font/alex_brush.xml" value="0.284375" />
+        <entry key="..\:/Users/lab_services_student/AndroidStudioProjects/KN_BEAUTYAPP_2022_OPSC_TASK2/app/src/main/res/layout/activity_collection.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/lab_services_student/AndroidStudioProjects/KN_BEAUTYAPP_2022_OPSC_TASK2/app/src/main/res/layout/activity_collection_items.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/lab_services_student/AndroidStudioProjects/KN_BEAUTYAPP_2022_OPSC_TASK2/app/src/main/res/layout/activity_create_collection.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/lab_services_student/AndroidStudioProjects/KN_BEAUTYAPP_2022_OPSC_TASK2/app/src/main/res/layout/activity_create_item.xml" value="0.176" />
+        <entry key="..\:/Users/lab_services_student/AndroidStudioProjects/KN_BEAUTYAPP_2022_OPSC_TASK2/app/src/main/res/layout/activity_feedback.xml" value="0.22916666666666666" />
+        <entry key="..\:/Users/lab_services_student/AndroidStudioProjects/KN_BEAUTYAPP_2022_OPSC_TASK2/app/src/main/res/layout/activity_help.xml" value="0.22916666666666666" />
+        <entry key="..\:/Users/lab_services_student/AndroidStudioProjects/KN_BEAUTYAPP_2022_OPSC_TASK2/app/src/main/res/layout/activity_home.xml" value="0.20652173913043478" />
+        <entry key="..\:/Users/lab_services_student/AndroidStudioProjects/KN_BEAUTYAPP_2022_OPSC_TASK2/app/src/main/res/layout/activity_item_details.xml" value="0.1" />
+        <entry key="..\:/Users/lab_services_student/AndroidStudioProjects/KN_BEAUTYAPP_2022_OPSC_TASK2/app/src/main/res/layout/activity_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/lab_services_student/AndroidStudioProjects/KN_BEAUTYAPP_2022_OPSC_TASK2/app/src/main/res/layout/activity_privacy_policy.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/lab_services_student/AndroidStudioProjects/KN_BEAUTYAPP_2022_OPSC_TASK2/app/src/main/res/layout/individual_collection.xml" value="0.22916666666666666" />
+        <entry key="..\:/Users/lab_services_student/AndroidStudioProjects/KN_BEAUTYAPP_2022_OPSC_TASK2/app/src/main/res/layout/individual_item.xml" value="0.22916666666666666" />
+        <entry key="..\:/Users/lab_services_student/AndroidStudioProjects/KN_BEAUTYAPP_2022_OPSC_TASK2/app/src/main/res/layout/navigation_header.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/lab_services_student/AndroidStudioProjects/KN_BEAUTYAPP_2022_OPSC_TASK2/app/src/main/res/menu/navigation_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/lab_services_student/AndroidStudioProjects/KN_BEAUTYAPP_2022_OPSC_TASK2_Final/app/src/main/res/layout/activity_create_collection.xml" value="0.25" />
+        <entry key="..\:/Users/lab_services_student/AndroidStudioProjects/KN_BEAUTYAPP_2022_OPSC_TASK2_Final/app/src/main/res/layout/activity_create_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/lab_services_student/AndroidStudioProjects/KN_BEAUTYAPP_2022_OPSC_TASK2_Final/app/src/main/res/layout/activity_graph.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/lab_services_student/AndroidStudioProjects/KN_BEAUTYAPP_2022_OPSC_TASK2_Final/app/src/main/res/layout/activity_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/lab_services_student/AndroidStudioProjects/KN_BEAUTYAPP_2022_OPSC_TASK2_Final/app/src/main/res/layout/collection_progressbar.xml" value="0.1" />
+        <entry key="..\:/Users/lab_services_student/AndroidStudioProjects/KN_BEAUTYAPP_2022_OPSC_TASK2_Final/app/src/main/res/layout/individual_collection.xml" value="0.12360688956433637" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/homebackground"
+    tools:context=".Login">
+
+    <TextView
+        android:id="@+id/txt_Beauty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="- B E A U T Y -"
+        android:textAlignment="viewStart"
+        android:textColor="#FF095D"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_Kn" />
+
+    <TextView
+        android:id="@+id/txt_Kn"
+        android:layout_width="217dp"
+        android:layout_height="123dp"
+        android:layout_marginTop="316dp"
+        android:fontFamily="@font/alex_brush"
+        android:text="KN"
+        android:textColor="#FF095D"
+        android:textSize="96sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    //---------------------------------------Code
+    Attribution------------------------------------------------
+    //Author:Smartherd
+    //Uses:Circle view display
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_Logo"
+        android:layout_width="228dp"
+        android:layout_height="326dp"
+        android:src="@drawable/knbeautylogo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.55"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+    //Link:https://www.youtube.com/watch?v=nRPoW0X16QU
+    //-----------------------------------------------End------------------------------------------------------
+
+    <ImageView
+        android:id="@+id/btnLogin"
+        android:layout_width="309dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_Beauty"
+        app:srcCompat="@drawable/loginwgoogleacc" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

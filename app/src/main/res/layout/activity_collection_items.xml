@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/knbeautybackground"
+    tools:context=".CollectionItems">
+
+
+    <com.google.android.material.progressindicator.LinearProgressIndicator
+        android:id="@+id/collect_progress"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/white"
+        android:backgroundTint="@color/white"
+        android:foregroundGravity="center"
+        android:visibility="visible"
+        app:indicatorColor="#E91E63"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_itemsCurrently"
+        app:trackColor="@color/white" />
+
+    <TextView
+        android:id="@+id/txt_GoalNumber"
+        android:layout_width="35dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:foregroundGravity="center"
+        android:text="Goal"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:visibility="visible"
+        app:layout_constraintStart_toEndOf="@+id/collect_progress"
+        app:layout_constraintTop_toTopOf="@+id/txt_itemsCurrently" />
+
+    <TextView
+        android:id="@+id/txt_itemsCurrently"
+        android:layout_width="71dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="124dp"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:text="Items"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toStartOf="@+id/txt_GoalNumber"
+        app:layout_constraintTop_toBottomOf="@+id/txt_CreatedCollectionName" />
+
+    <TextView
+        android:id="@+id/txt_AddItemsToCollection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="112dp"
+        android:text="Tap the + to get started"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_CreatedCollectionName" />
+
+    <TextView
+        android:id="@+id/txt_CreatedCollectionName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="16dp"
+        android:text="Collection name"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcy_item"
+        android:layout_width="378dp"
+        android:layout_height="421dp"
+        android:layout_marginTop="72dp"
+        android:foregroundGravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_CreatedCollectionName" />
+
+    <ImageView
+        android:id="@+id/img_ReturnHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_back" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_AddLogo"
+        android:layout_width="112dp"
+        android:layout_height="114dp"
+        android:src="@drawable/addacollection"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.94" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

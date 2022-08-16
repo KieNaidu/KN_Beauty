@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/knbeautybackground"
+    tools:context=".ItemDetails">
+
+    <Button
+        android:id="@+id/btn_SaveEdit"
+        android:layout_width="100dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="4dp"
+        android:backgroundTint="#FD5DA8"
+        android:text="Save"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_EditItem" />
+
+    <TextView
+        android:id="@+id/txt_IndvidualDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:text="DESCRIPTION"
+        android:textColor="#E91E63"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_BrandDisplay" />
+
+    <TextView
+        android:id="@+id/txt_IndividualCollectionItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="44dp"
+        android:gravity="center"
+        android:text="Collection name"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.352"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/img_ReturnItemList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="52dp"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_arrow_back_24" />
+
+    <TextView
+        android:id="@+id/txt_IndividualItemTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="100dp"
+        android:text="TITLE"
+        android:textColor="#E91E63"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_IndividualItemBrand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="12dp"
+        android:text="BRAND"
+        android:textColor="#E91E63"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_TitleDisplay" />
+
+    <TextView
+        android:id="@+id/txt_DateEdit"
+        android:layout_width="173dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="96dp"
+        android:background="@drawable/rounded_textview"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:paddingLeft="10dp"
+        android:hint="Select A Date"
+        android:textSize="20dp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_IndividualItemDateAquired" />
+
+    <TextView
+        android:id="@+id/txt_DateDisplay"
+        android:layout_width="244dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="32dp"
+        android:background="@drawable/rounded_textview"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:paddingLeft="10dp"
+        android:text="DATE"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_IndividualItemDateAquired" />
+
+    <ImageView
+        android:id="@+id/img_EditDate"
+        android:layout_width="35dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="13dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@+id/txt_DateEdit"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_IndividualItemDateAquired"
+        app:srcCompat="@drawable/ic_calendar" />
+
+    <TextView
+        android:id="@+id/txt_IndividualItemDateAquired"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="12dp"
+        android:text="DATE AQUIRED"
+        android:textColor="#E91E63"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_DescriptionDisplay" />
+
+    <ImageView
+        android:id="@+id/img_IndividualImage"
+        android:layout_width="104dp"
+        android:layout_height="99dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_IndividualItemImage"
+        app:srcCompat="@android:drawable/ic_menu_gallery" />
+
+    <TextView
+        android:id="@+id/txt_IndividualItemImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="12dp"
+        android:text="IMAGE"
+        android:textColor="#E91E63"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_DateEdit" />
+
+    <TextView
+        android:id="@+id/txt_TitleDisplay"
+        android:layout_width="244dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="8dp"
+        android:paddingLeft="10dp"
+        android:background="@drawable/rounded_textview"
+        android:backgroundTint="@color/white"
+        android:hint="TITLE"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_IndividualItemTitle" />
+
+    <TextView
+        android:id="@+id/txt_BrandDisplay"
+        android:layout_width="244dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="8dp"
+        android:paddingLeft="10dp"
+        android:background="@drawable/rounded_textview"
+        android:backgroundTint="@color/white"
+        android:text="BRAND"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_IndividualItemBrand" />
+
+    <TextView
+        android:id="@+id/txt_DescriptionDisplay"
+        android:layout_width="240dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="32dp"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/rounded_textview"
+        android:backgroundTint="@color/white"
+        android:text="DESCRIPTION"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_IndvidualDesc" />
+
+    <EditText
+        android:id="@+id/edt_IndividualItemTitle"
+        android:layout_width="244dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="28dp"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/rounded_textview"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:hint=""
+        android:inputType="textPersonName"
+        android:textSize="20dp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_IndividualItemTitle" />
+
+    <EditText
+        android:id="@+id/edt_IndividualItemBrand"
+        android:layout_width="242dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="28dp"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/rounded_textview"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:hint=""
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textSize="20dp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_IndividualItemBrand" />
+
+    <EditText
+        android:id="@+id/edt_IndividualDescription"
+        android:layout_width="238dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:paddingLeft="10dp"
+        android:background="@drawable/rounded_textview"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:hint=""
+        android:inputType="textPersonName"
+        android:textSize="20dp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_IndvidualDesc" />
+
+    <ImageView
+        android:id="@+id/img_EditItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="52dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_edit" />
+
+    <ImageView
+        android:id="@+id/img_Delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_delete" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

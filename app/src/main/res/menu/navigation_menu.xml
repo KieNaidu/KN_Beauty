@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/home"
+        android:icon="@drawable/ic_home"
+        android:title="@string/home" />
+
+    <item android:id="@+id/privacyPolicy"
+        android:icon="@drawable/ic_privacy"
+        android:title="@string/privacy" />
+
+    <item android:id="@+id/help"
+        android:icon="@drawable/ic_help"
+        android:title="@string/help" />
+
+    <item android:id="@+id/feedback"
+        android:icon="@drawable/ic_feedback"
+        android:title="@string/feedback" />
+
+    <item android:title="@string/logout">
+        <menu>
+            <item android:id="@+id/signout"
+                android:icon="@drawable/ic_logout"
+                android:title="@string/logout" />
+        </menu>
+    </item>
+</menu>

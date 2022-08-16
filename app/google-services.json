@@ -1,0 +1,188 @@
+{
+  "project_info": {
+    "project_number": "325279032255",
+    "firebase_url": "https://task2-knbeautyapp-default-rtdb.firebaseio.com",
+    "project_id": "task2-knbeautyapp",
+    "storage_bucket": "task2-knbeautyapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:325279032255:android:1dc8655627ecb5e268b70a",
+        "android_client_info": {
+          "package_name": "com.kiellenaidu.kn_beauty_2022"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "325279032255-puqtudm3sg0duckc2r6aqdmld5h4h88a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kiellenaidu.kn_beauty_2022",
+            "certificate_hash": "e382a4590960525957f3479c9667d5ff0cd0b9d0"
+          }
+        },
+        {
+          "client_id": "325279032255-8r3lbmc4198cu8s5ut12k86hjtfuka2u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-q_dxstapnkcXh_V4H9VwU5qBYP-wYY8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "325279032255-7mqum7mjlkh1m7t3768shgdnhltvmpeh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:325279032255:android:211827285ec72ddf68b70a",
+        "android_client_info": {
+          "package_name": "com.varsitycollege.firebaserecyclerview"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "325279032255-8r3lbmc4198cu8s5ut12k86hjtfuka2u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-q_dxstapnkcXh_V4H9VwU5qBYP-wYY8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "325279032255-7mqum7mjlkh1m7t3768shgdnhltvmpeh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:325279032255:android:588473aa235520ee68b70a",
+        "android_client_info": {
+          "package_name": "com.varsitycollege.kn_beauty_app_2022_opsc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "325279032255-8r3lbmc4198cu8s5ut12k86hjtfuka2u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-q_dxstapnkcXh_V4H9VwU5qBYP-wYY8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "325279032255-7mqum7mjlkh1m7t3768shgdnhltvmpeh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:325279032255:android:602f160acf77e1d168b70a",
+        "android_client_info": {
+          "package_name": "com.varsitycollege.kn_beautyapp_2022_opsc_task2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "325279032255-1hpmplq0fd2f71sdd80dq6itsrtilon7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.varsitycollege.kn_beautyapp_2022_opsc_task2",
+            "certificate_hash": "e382a4590960525957f3479c9667d5ff0cd0b9d0"
+          }
+        },
+        {
+          "client_id": "325279032255-7te1akg286628alptqdenrumgaocta4f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.varsitycollege.kn_beautyapp_2022_opsc_task2",
+            "certificate_hash": "df3bd3f9e65bc83fee37fe0a1d66f774626812e2"
+          }
+        },
+        {
+          "client_id": "325279032255-rd8bfiai2u4vbamrtdc9nq6fsrdiveh6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.varsitycollege.kn_beautyapp_2022_opsc_task2",
+            "certificate_hash": "d7eda632f4beb8ceff1389a8bb1a7c83d6f86a8e"
+          }
+        },
+        {
+          "client_id": "325279032255-8r3lbmc4198cu8s5ut12k86hjtfuka2u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-q_dxstapnkcXh_V4H9VwU5qBYP-wYY8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "325279032255-7mqum7mjlkh1m7t3768shgdnhltvmpeh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:325279032255:android:6738b4492b1b4f7568b70a",
+        "android_client_info": {
+          "package_name": "com.varsitycollege.task2_opsc7311_knbeautyapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "325279032255-8r3lbmc4198cu8s5ut12k86hjtfuka2u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-q_dxstapnkcXh_V4H9VwU5qBYP-wYY8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "325279032255-7mqum7mjlkh1m7t3768shgdnhltvmpeh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

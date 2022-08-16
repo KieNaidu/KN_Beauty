@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <color name="colorPrimary">#B8A6A5</color>
+    <color name="colorPrimaryDark">#E91E63</color>
+    <color name="colorAccent">#FFAAA4</color>
+    
+    <style name="dialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+        <item name="android:positiveButtonText">OK</item>
+        <item name="android:negativeButtonText">CANCEL</item>
+      <!--  <item name="buttonBarNegativeButtonStyle"></item>
+        <item name="buttonBarPositiveButtonStyle"></item>-->
+<!--
+        <item name="android:datePickerDialogTheme"></item>
+-->
+
+    </style>
+</resources>

@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">KN BEAUTY</string>
+    <string name="title_activity_login">Login</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="feedback">feedback</string>
+    <string name="help">help</string>
+    <string name="privacy">privacy</string>
+    <string name="home">home</string>
+    <string name="logout">logout</string>
+
+    <string-array name="options">
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+    <string name="privacypolicy">
+    <a href="https://www.termsfeed.com/live/0dac0478-4856-4a54-b1c1-f13afa879e13"> KN BEAUTY PRIVACY POLICY</a>
+</string>
+
+    <string name="helppage">
+    <a href="https://knbeauty.azurewebsites.net/"> KN BEAUTY HELP PAGE</a>
+</string>
+
+    <string name="feedbackpage">
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLScY-0BQSZsns_fsaMHPVa_nGV6gEEwhhBYBpAXOVFnZIQbgbg/viewform?usp=pp_url"> KN BEAUTY FEEDBACK PAGE</a>
+    </string>
+
+</resources>
